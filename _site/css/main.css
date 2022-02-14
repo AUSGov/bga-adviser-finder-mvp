@@ -4710,8 +4710,6 @@ ul.event-info li:last-of-type { padding: 0; }
 
 #adviser-finder .results-section .results-title-wrapper .results-title .showing-results .number { font-family: "Open Sans", sans-serif; font-weight: 600; font-style: normal; }
 
-#adviser-finder .results-section .results-title-wrapper .results-title .view-filters.mobile-show { display: none; }
-
 #adviser-finder .results-section .filter-and-results-wrapper.sticky { padding-top: 160px; }
 
 #adviser-finder .results-section .filter-and-results-wrapper .filter-wrapper .modal-close { display: none; }

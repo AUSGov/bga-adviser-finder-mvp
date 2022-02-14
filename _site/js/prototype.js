@@ -559,20 +559,6 @@ $(document).ready(function () {
         clear_filters();
     });
     
-    
-    // Clear postcode on map reset
-    /*$('#reset').on('click', function(){
-        var that = $(this);
-        
-        localStorage.removeItem("postcode_value");
-        $('#postcode-input').val("");
-        $('.text-field-item').removeClass('selected');
-        $('#postcode-input').removeClass('selected'); 
-        
-        //add_show_classes_on_load('.list-view.search-card-result');
-        change_showing(that, '.text-field-item', 1);
-    });*/
-
         
     // SET ACTIVE FILTERS ON PAGE LOAD - MULTIPLE SELECT
     $('#postcode .active-filters li').text(localStorage.getItem('postcode_value'));
@@ -641,21 +627,6 @@ $(document).ready(function () {
     add_show_classes_on_load('.list-view.search-card-result');
 
     set_total_filter_count();
-
-    
-
-    // LIST VS MAPS VIEW
-    $("#view-tabs-buttons button").on('click', function(){
-        $("#view-tabs-buttons button").removeClass("active");
-        $(this).addClass("active");
-        
-        var active_view = $(this).attr('data-label');
-        $('.view-tab').removeClass('active');
-        $('#' + active_view).addClass('active');
-        
-        var view_type = $(this).attr('data-label');
-        localStorage.setItem('view type', view_type);
-    });
 
 
     // SET VIEW TYPE ON PAGE LOAD
