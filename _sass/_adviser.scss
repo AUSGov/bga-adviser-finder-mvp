@@ -68,7 +68,14 @@
                 .number {
                     @include font-format($font-family, $font-semibold, normal);
                 }
-            }            
+            }
+            
+            .view-filters {
+                &.mobile-show {
+                    display: none;
+                }
+            }
+   
         }   
   
     }
@@ -512,13 +519,13 @@
             }
         }
         
-        .view-tab {
+        /*.view-tab {
             display: none;
             
             &.active {
                 display: block;
             }
-        }
+        }*/
         
         #maps-view {
 
