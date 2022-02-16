@@ -4945,7 +4945,7 @@ ul.event-info li:last-of-type { padding: 0; }
 /* EVENTS INFO PAGES */
 .page-header-theme-grey .label { font-size: .75rem; text-transform: uppercase; padding-bottom: 16px; }
 
-.page-header-theme-grey .updated { letter-spacing: .0125rem; font-size: .75rem; line-height: 1.5; padding-bottom: 16px; font-style: italic; margin-bottom: 0; padding-bottom: 0; }
+.page-header-theme-grey .updated { letter-spacing: .0125rem; font-size: .75rem; line-height: 1.5; padding-bottom: 16px; font-style: italic; margin-bottom: 0; padding-bottom: 16px; }
 
 .page-header-theme-grey .page-header { padding: 64px 15px; }
 
