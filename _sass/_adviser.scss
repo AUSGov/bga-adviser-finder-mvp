@@ -373,16 +373,17 @@
                             display: flex;
 
                             input {
-                                width: 60%;
+                                width: 66%;
                                 height: 48px;
                                 margin-right: 0;
                                 padding: 0 8px;
                                 border: solid 1px $black-light;
                                 border-right: none;
                                 display: block;
+                                
 
                                 &::placeholder {
-                                    font-size: 14px;
+                                    font-size: 13px;
                                 }
                                 
                             }
@@ -395,7 +396,7 @@
                                 border-top-left-radius: 0px;
                                 border-bottom-left-radius: 0px;
                                 border: solid 2px $teal-dark;
-                                width: 40%;
+                                width: 34%;
                                 height: 48px;
                                 font-weight: 600;
                                 padding: 0 16px;
@@ -630,12 +631,18 @@
             .search-card-content {
                 padding: 24px;
                 
-                .top-row .search-card-content-type {
-                    width: 100%;
+                .top-row {
+                    padding-bottom: 0;
+                    
+                    .search-card-content-type {
+                        width: 100%;
+                        padding-bottom: 24px;
+                    }
+                    
                 }
 
                 .search-card-heading {
-                    font-size: 21px;
+                    font-size: 18px;
                     font-weight: 600;
                     line-height: 1.56;
                     text-align: left;
@@ -660,13 +667,13 @@
                     font-size: 14px;
                     line-height: 1.71;
                     color: #333;
-                    padding-bottom: 16px;
+                    padding-bottom: 24px;
                 }
                 
                 .search-card-details {
                     .service-area {
                         background: #E1EAF6 url('../assets/Icon-pin_black.svg') no-repeat;
-                        border-radius: 100px;
+                        border-radius: 40px;
                         padding: 8px 16px 8px 40px;   
                         background-position: 16px center;
                         display: inline-block;
@@ -749,14 +756,9 @@
                     }
                 }
                 .search-card-content {
-                    padding: 16px 24px 24px 24px;
-                    
-                    .top-row {
-                        padding-bottom: 16px;
-                    }
                     
                     .search-card-heading {
-                        font-size: 18px;
+                        font-size: 16px;
                         line-height: 28px;
                     }
                     
